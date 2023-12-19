@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    justify-content: end;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    position: absolute;
+    width: 100%;
+}
+
+/* hij haalt hem uit de flow zodat die geen ruimte ineemt*/
+
+header nav {
+    display: none;
+}
+
+header a:first-of-type {
+    margin-right: auto
+}
+
+header svg {
+    height: 1.5em;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+main img {
+    width: 100%;
+}
+
+main a {
+    background-color: black;
+    border-radius: 1em;
+    color: white;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/*links en rechts margine*/
+
+
+
+nav ul:first-of-type[aria-hidden="true"] {
+    background-color: lime;
+}
